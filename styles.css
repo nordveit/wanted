@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+#statusButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#statusButtons {
+    display: grid;
+    grid-template-columns: repeat(2, 120px); /* 칼럼 너비 고정 */
+    gap: 10px; /* 간격 조정 */
+    justify-content: center; /* 중앙 정렬 */
+}
+
+.status-button {
+    width: 120px;
+    height: 70px; /* 높이 증가 */
+    padding: 10px;
+    border: 2px solid #424040; /* 테두리 색상 변경 */
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff; /* 버튼 색상 변경 */
+    color: #424040; /* 텍스트 색상 변경 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.status-button img {
+    width: 32px; /* 아이콘 크기 증가 */
+    height: 32px; /* 아이콘 크기 증가 */
+    margin-bottom: 5px;
+}
+
+.status-button span {
+    font-size: 16px; /* 폰트 크기 증가 */
+}
+
+.status-button:hover {
+    background-color: #e0f0ff; /* 호버 시 배경 색상 변경 */
+}
+
+.status-button.selected {
+    background-color: #424040; /* 선택된 버튼 배경 색상 */
+    color: #fff; /* 선택된 버튼 텍스트 색상 */
+    border-color: #424040; /* 선택된 버튼 테두리 색상 */
+}
+
+#resetButton {
+    margin-top: 20px; /* 마진 증가 */
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#resetButton:hover {
+    background-color: #c82333;
+}
+
+#effectCards {
+    margin-top: 20px;
+    margin-bottom: 20px; /* 높이 마진 증가 */
+}
+
+.effect-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.effect-card img {
+    width: 100px; /* 이미지 크기 설정 */
+    height: 100px;
+    margin-bottom: 10px;
+}

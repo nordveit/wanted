@@ -1,0 +1,45 @@
+{
+    "statuses": {
+      "status1": "피부건강",
+      "status2": "스트레스",
+      "status3": "운동",
+      "status4": "음주",
+      "status5": "수면부족",
+      "status6": "눈 건강"
+    },
+    "cards": {
+      "card1": "현대인의 영양 충전소",
+      "card2": "마이알고의 조그만 비타민D 저울",
+      "card3": "지켜주는 비타민 C 우산",
+      "card4": "가뿐사뿐 비타민 B 운동화",
+      "card5": "잠 푹 자는 테아닌 잠옷",
+      "card6": "동그란 로사빈 돌맹이",
+      "card7": "시간을 돌리는 비타민 C 회중시계",
+      "card8": "끄떡없는 실리마린 방패",
+      "card9": "눈 좋은 사람의 눈사람",
+      "card10": "수분 공급 오메가3 돌고래 물총"
+    },
+    "effects": {
+      "status1,status2,status3": "card1",
+      "status2,status3,status4": "card1",
+      "status1,status2,status4": "card2",
+      "status2,status3,status6": "card2",
+      "status3,status4,status6": "card3",
+      "status3,status4,status5": "card3",
+      "status1,status3,status6": "card4",
+      "status3,status5,status6": "card4",
+      "status2,status3,status5": "card5",
+      "status2,status5,status6": "card5",
+      "status1,status2,status5": "card6",
+      "status2,status4,status6": "card6",
+      "status1,status3,status4": "card7",
+      "status1,status3,status5": "card7",
+      "status2,status4,status5": "card8",
+      "status4,status5,status6": "card8",
+      "status1,status2,status6": "card9",
+      "status1,status4,status6": "card9",
+      "status1,status4,status5": "card10",
+      "status1,status5,status6": "card10"
+    }
+  }
+  
